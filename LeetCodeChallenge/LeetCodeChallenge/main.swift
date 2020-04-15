@@ -8,8 +8,9 @@
 
 import Foundation
 
-// This place is used as playground!
+/**
+ This place is used as playground! Feel free to debug here.
+ 
+ Ctrl + U to run all tests.
+ */
 print("Hello My LeetCode Challenge")
-
-let solDay2 = SolutionDay2()
-print(solDay2.isHappy(9))
