@@ -13,6 +13,9 @@ class TestsWeek1: XCTestCase {
     let sol2 = SolutionDay2()
     let sol3 = SolutionDay3()
     let sol4 = SolutionDay4()
+    let sol5 = SolutionDay5()
+    let sol6 = SolutionDay6()
+    let sol7 = SolutionDay7()
     
     // MARK: - Day 1: Single Number Tests
     func testSingleNumber1() {
@@ -96,6 +99,63 @@ class TestsWeek1: XCTestCase {
         let expected = [1, 0, 0, 0, 0, 0]
         sol4.moveZeroes(&input)
         XCTAssertEqual(input, expected)
+    }
+    
+    // MARK: - Day 5: Best Time to Buy and Sell Stock II
+    func testMakeProfit1() {
+        let input = [7, 1, 5, 3, 6, 4]
+        let expected = 7
+        XCTAssertEqual(sol5.maxProfit(input), expected)
+    }
+    
+    func testMakeProfit2() {
+        let input = [1, 2, 3, 4, 5]
+        let expected = 4
+        XCTAssertEqual(sol5.maxProfit(input), expected)
+    }
+    
+    // MARK: - Day 6: Group Anagrams
+    func testGroupAnagrams1() {
+        let input = ["eat", "tea", "tan", "ate", "nat", "bat"]
+        let expected = [
+          ["ate","eat","tea"],
+          ["nat","tan"],
+          ["bat"]
+        ]
+        XCTAssertTrue(expected.compareTo2DArrayIgnoreOrder(sol6.groupAnagrams(input)))
+    }
+    
+    func testGroupAnagrams2() {
+        let input = ["","",""]
+        let expected = [
+            ["","",""]
+        ]
+        XCTAssertTrue(expected.compareTo2DArrayIgnoreOrder(sol6.groupAnagrams(input)))
+    }
+    
+    // MARK: - Day 7: Counting Elements
+    func testCountingElements1() {
+        let input = [1, 2, 3]
+        let expected = 2
+        XCTAssertEqual(expected, sol7.countElements(input))
+    }
+    
+    func testCountingElements2() {
+        let input = [1, 1, 3, 3, 5, 5, 7, 7]
+        let expected = 0
+        XCTAssertEqual(expected, sol7.countElements(input))
+    }
+    
+    func testCountingElements3() {
+        let input = [1, 3, 2, 3, 5, 0]
+        let expected = 3
+        XCTAssertEqual(expected, sol7.countElements(input))
+    }
+    
+    func testCountingElements4() {
+        let input = [1, 1, 2, 2]
+        let expected = 2
+        XCTAssertEqual(expected, sol7.countElements(input))
     }
     
     // Performance tests comes later
