@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		68D042B5244533BD0086E311 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D042B4244533BD0086E311 /* main.swift */; };
+		68D042D8244680980086E311 /* SolutionDay1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D042C02446723D0086E311 /* SolutionDay1.swift */; };
+		68D04313244683CE0086E311 /* SolutionDay1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D042C02446723D0086E311 /* SolutionDay1.swift */; };
+		68D043152446841F0086E311 /* TestsWeek1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D043142446841F0086E311 /* TestsWeek1.swift */; };
+		68D04317244684E50086E311 /* SolutionDay2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D04316244684E50086E311 /* SolutionDay2.swift */; };
+		68D043182446852E0086E311 /* SolutionDay2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D04316244684E50086E311 /* SolutionDay2.swift */; };
+		68D0431A244687920086E311 /* SolutionDay3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D04319244687920086E311 /* SolutionDay3.swift */; };
+		68D0431B2446887B0086E311 /* SolutionDay3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D04319244687920086E311 /* SolutionDay3.swift */; };
+		68D0431D24468A120086E311 /* SolutionDay4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D0431C24468A120086E311 /* SolutionDay4.swift */; };
+		68D0431E24468A220086E311 /* SolutionDay4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D0431C24468A120086E311 /* SolutionDay4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +34,24 @@
 /* Begin PBXFileReference section */
 		68D042B1244533BD0086E311 /* LeetCodeChallenge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeChallenge; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D042B4244533BD0086E311 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		68D042C02446723D0086E311 /* SolutionDay1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionDay1.swift; sourceTree = "<group>"; };
+		68D0430B2446832D0086E311 /* ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D0430F2446832D0086E311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68D043142446841F0086E311 /* TestsWeek1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsWeek1.swift; sourceTree = "<group>"; };
+		68D04316244684E50086E311 /* SolutionDay2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionDay2.swift; sourceTree = "<group>"; };
+		68D04319244687920086E311 /* SolutionDay3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionDay3.swift; sourceTree = "<group>"; };
+		68D0431C24468A120086E311 /* SolutionDay4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionDay4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		68D042AE244533BD0086E311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D043082446832D0086E311 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				68D042B3244533BD0086E311 /* LeetCodeChallenge */,
+				68D0430C2446832D0086E311 /* ChallengeTests */,
 				68D042B2244533BD0086E311 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				68D042B1244533BD0086E311 /* LeetCodeChallenge */,
+				68D0430B2446832D0086E311 /* ChallengeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +95,10 @@
 		68D042BB244533E00086E311 /* Week1 */ = {
 			isa = PBXGroup;
 			children = (
+				68D042C02446723D0086E311 /* SolutionDay1.swift */,
+				68D04316244684E50086E311 /* SolutionDay2.swift */,
+				68D04319244687920086E311 /* SolutionDay3.swift */,
+				68D0431C24468A120086E311 /* SolutionDay4.swift */,
 			);
 			path = Week1;
 			sourceTree = "<group>";
@@ -102,6 +131,15 @@
 			path = Week5;
 			sourceTree = "<group>";
 		};
+		68D0430C2446832D0086E311 /* ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				68D043142446841F0086E311 /* TestsWeek1.swift */,
+				68D0430F2446832D0086E311 /* Info.plist */,
+			);
+			path = ChallengeTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,6 +160,23 @@
 			productReference = 68D042B1244533BD0086E311 /* LeetCodeChallenge */;
 			productType = "com.apple.product-type.tool";
 		};
+		68D0430A2446832D0086E311 /* ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68D043102446832D0086E311 /* Build configuration list for PBXNativeTarget "ChallengeTests" */;
+			buildPhases = (
+				68D043072446832D0086E311 /* Sources */,
+				68D043082446832D0086E311 /* Frameworks */,
+				68D043092446832D0086E311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChallengeTests;
+			productName = ChallengeTests;
+			productReference = 68D0430B2446832D0086E311 /* ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -133,6 +188,9 @@
 				ORGANIZATIONNAME = "Michael Ho";
 				TargetAttributes = {
 					68D042B0244533BD0086E311 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					68D0430A2446832D0086E311 = {
 						CreatedOnToolsVersion = 11.4;
 					};
 				};
@@ -151,16 +209,43 @@
 			projectRoot = "";
 			targets = (
 				68D042B0244533BD0086E311 /* LeetCodeChallenge */,
+				68D0430A2446832D0086E311 /* ChallengeTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68D043092446832D0086E311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		68D042AD244533BD0086E311 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68D0431D24468A120086E311 /* SolutionDay4.swift in Sources */,
 				68D042B5244533BD0086E311 /* main.swift in Sources */,
+				68D042D8244680980086E311 /* SolutionDay1.swift in Sources */,
+				68D04317244684E50086E311 /* SolutionDay2.swift in Sources */,
+				68D0431A244687920086E311 /* SolutionDay3.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D043072446832D0086E311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D0431E24468A220086E311 /* SolutionDay4.swift in Sources */,
+				68D04313244683CE0086E311 /* SolutionDay1.swift in Sources */,
+				68D043152446841F0086E311 /* TestsWeek1.swift in Sources */,
+				68D043182446852E0086E311 /* SolutionDay2.swift in Sources */,
+				68D0431B2446887B0086E311 /* SolutionDay3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +387,40 @@
 			};
 			name = Release;
 		};
+		68D043112446832D0086E311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelho.ChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		68D043122446832D0086E311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelho.ChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -319,6 +438,15 @@
 			buildConfigurations = (
 				68D042B9244533BD0086E311 /* Debug */,
 				68D042BA244533BD0086E311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68D043102446832D0086E311 /* Build configuration list for PBXNativeTarget "ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68D043112446832D0086E311 /* Debug */,
+				68D043122446832D0086E311 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

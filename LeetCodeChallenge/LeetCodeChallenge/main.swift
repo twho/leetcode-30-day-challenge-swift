@@ -8,5 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
+// This place is used as playground!
+print("Hello My LeetCode Challenge")
 
+let solDay2 = SolutionDay2()
+print(solDay2.isHappy(9))
