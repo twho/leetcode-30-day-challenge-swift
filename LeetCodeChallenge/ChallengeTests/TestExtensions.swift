@@ -21,3 +21,25 @@ extension Array where Element: Collection, Element.Element: Comparable {
         }
     }
 }
+
+extension ListNode {
+    
+    func isEqualToLinkedList(_ otherHead: ListNode?) -> Bool {
+        guard otherHead != nil else {
+            return false
+        }
+        
+        var otherNode = otherHead
+        var node: ListNode? = self
+        
+        while node != nil {
+            if otherNode == nil || (node?.val)! != (otherNode?.val)! {
+                return false
+            }
+            otherNode = otherNode?.next
+            node = node?.next
+        }
+        
+        return true
+    }
+}

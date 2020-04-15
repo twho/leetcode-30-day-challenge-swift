@@ -7,9 +7,9 @@
 //
 
 // LeetCode: https://leetcode.com/problems/single-number/
-public class SolutionDay1 {
+class SolutionDay1 {
     
-    public func singleNumber(_ nums: [Int]) -> Int {
+    func singleNumber(_ nums: [Int]) -> Int {
         var dict = [Int:Bool]()
         for num in nums {
             if (dict[num] != nil) {
