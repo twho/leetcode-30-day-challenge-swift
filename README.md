@@ -16,7 +16,10 @@ Straightforward solutions
 ## Table
 | Day | Diffculty | Problem | Solution |
 |:--:| :--: | -- | -- |
-| 1 |📗|[Single Number](https://leetcode.com/problems/single-number/) | [Solution](../LeetCodeChallenge/LeetCodeChallenge/Week1/SolutionDay1.swift)|
-| 2 |📗| [Happy Number](https://leetcode.com/problems/happy-number/) | [Solution](../LeetCodeChallenge/LeetCodeChallenge/Week1/SolutionDay2.swift)|
-| 3 |📗| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Solution](../LeetCodeChallenge/LeetCodeChallenge/Week1/SolutionDay3.swift)|
-| 4 |📗| [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Solution](../LeetCodeChallenge/LeetCodeChallenge/Week1/SolutionDay4.swift)|
+| 1 |📗|[Single Number](https://leetcode.com/problems/single-number/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week1/SolutionDay1.swift)|
+| 2 |📗| [Happy Number](https://leetcode.com/problems/happy-number/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week1/SolutionDay2.swift)|
+| 3 |📗| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week1/SolutionDay3.swift)|
+| 4 |📗| [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week1/SolutionDay4.swift)|
+| 5 |📗| [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week1/SolutionDay5.swift)|
+| 6 |📙| [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week1/SolutionDay6.swift)|
+| 7 |📗| [Counting Elements](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3289/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week1/SolutionDay7.swift)|
