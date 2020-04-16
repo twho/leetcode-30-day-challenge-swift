@@ -28,5 +28,4 @@
 | 11 |📗| [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week2/SolutionDay11.swift)|
 | 12 |📗| [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week2/SolutionDay12.swift)|
 | 13 |📗| [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week2/SolutionDay13.swift)|
-| 14 |📗| [Perform String Shifts
-](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/529/week-2/3299/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week2/SolutionDay14.swift)|
+| 14 |📗| [Perform String Shifts](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/529/week-2/3299/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week2/SolutionDay14.swift)|
