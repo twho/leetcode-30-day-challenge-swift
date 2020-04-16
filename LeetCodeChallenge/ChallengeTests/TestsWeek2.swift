@@ -12,6 +12,9 @@ class TestsWeek2: XCTestCase {
     let sol8 = SolutionDay8()
     let sol9 = SolutionDay9()
     let sol11 = SolutionDay11()
+    let sol12 = SolutionDay12()
+    let sol13 = SolutionDay13()
+    let sol14 = SolutionDay14()
     
     // MARK: - Day 8: Middle of the Linked List
     func testMiddleNode1() {
@@ -128,6 +131,57 @@ class TestsWeek2: XCTestCase {
         ].convertToBinaryTree()
         let expected = 6
         XCTAssertEqual(expected, sol11.diameterOfBinaryTree(tree))
+    }
+    
+    // MARK: - Day 12: Last Stone Weight
+    func testLastStoneWeight1() {
+        let input = [2, 7, 4, 1, 8, 1]
+        let expected = 1
+        XCTAssertEqual(expected, sol12.lastStoneWeight(input))
+    }
+    
+    func testLastStoneWeight2() {
+        let input = [10, 5, 7, 23, 11, 12, 27, 19]
+        let expected = 0
+        XCTAssertEqual(expected, sol12.lastStoneWeight(input))
+    }
+    
+    // MARK: - Day 13: Contiguous Array
+    func testContiguousArray1() {
+        let input = [0, 1]
+        let expected = 2
+        XCTAssertEqual(expected, sol13.findMaxLength(input))
+    }
+    
+    func testContiguousArray2() {
+        let input = [0, 1, 0]
+        let expected = 2
+        XCTAssertEqual(expected, sol13.findMaxLength(input))
+    }
+    
+    func testContiguousArray3() {
+        let input = [0, 1, 0, 0, 1, 0, 1, 1, 0, 0]
+        let expected = 8
+        XCTAssertEqual(expected, sol13.findMaxLength(input))
+    }
+    
+    // MARK: - Day 14: Perform String Shifts
+    func testPerformStringShifts1() {
+        let input = (s: "abc", shift: [[0,1], [1,2]])
+        let expected = "cab"
+        XCTAssertEqual(expected, sol14.stringShift(input.s, input.shift))
+    }
+    
+    func testPerformStringShifts2() {
+        let input = (s: "abcdefg", shift: [[1, 1], [1, 1], [0, 2], [1, 3]])
+        let expected = "efgabcd"
+        XCTAssertEqual(expected, sol14.stringShift(input.s, input.shift))
+    }
+    
+    func testPerformStringShifts3() {
+        let input = (s: "michaelh", shift: [[1, 1], [1, 1], [1, 8], [0, 6], [1, 17]])
+        let expected = "haelhmic"
+        XCTAssertEqual(expected, sol14.stringShift(input.s, input.shift))
     }
     
     func testPerformanceExample() throws {

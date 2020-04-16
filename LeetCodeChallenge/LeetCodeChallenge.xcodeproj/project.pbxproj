@@ -37,6 +37,12 @@
 		68D0433B2447830C0086E311 /* SolutionDay10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D04339244781FC0086E311 /* SolutionDay10.swift */; };
 		68D0433D244789960086E311 /* SolutionDay11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D0433C244789960086E311 /* SolutionDay11.swift */; };
 		68D0433E24478DE90086E311 /* SolutionDay11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D0433C244789960086E311 /* SolutionDay11.swift */; };
+		68D043402447D6530086E311 /* SolutionDay12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D0433F2447D6530086E311 /* SolutionDay12.swift */; };
+		68D043422447D65A0086E311 /* SolutionDay13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D043412447D65A0086E311 /* SolutionDay13.swift */; };
+		68D043442447D6620086E311 /* SolutionDay14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D043432447D6620086E311 /* SolutionDay14.swift */; };
+		68D043452447D9740086E311 /* SolutionDay12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D0433F2447D6530086E311 /* SolutionDay12.swift */; };
+		68D043462447DBC60086E311 /* SolutionDay13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D043412447D65A0086E311 /* SolutionDay13.swift */; };
+		68D043472447DD180086E311 /* SolutionDay14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D043432447D6620086E311 /* SolutionDay14.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -72,6 +78,9 @@
 		68D043362447803E0086E311 /* SolutionDay9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionDay9.swift; sourceTree = "<group>"; };
 		68D04339244781FC0086E311 /* SolutionDay10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionDay10.swift; sourceTree = "<group>"; };
 		68D0433C244789960086E311 /* SolutionDay11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionDay11.swift; sourceTree = "<group>"; };
+		68D0433F2447D6530086E311 /* SolutionDay12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionDay12.swift; sourceTree = "<group>"; };
+		68D043412447D65A0086E311 /* SolutionDay13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionDay13.swift; sourceTree = "<group>"; };
+		68D043432447D6620086E311 /* SolutionDay14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionDay14.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +154,9 @@
 				68D043362447803E0086E311 /* SolutionDay9.swift */,
 				68D04339244781FC0086E311 /* SolutionDay10.swift */,
 				68D0433C244789960086E311 /* SolutionDay11.swift */,
+				68D0433F2447D6530086E311 /* SolutionDay12.swift */,
+				68D043412447D65A0086E311 /* SolutionDay13.swift */,
+				68D043432447D6620086E311 /* SolutionDay14.swift */,
 			);
 			path = Week2;
 			sourceTree = "<group>";
@@ -279,7 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68D043442447D6620086E311 /* SolutionDay14.swift in Sources */,
 				68D0431D24468A120086E311 /* SolutionDay4.swift in Sources */,
+				68D043402447D6530086E311 /* SolutionDay12.swift in Sources */,
 				68D042B5244533BD0086E311 /* main.swift in Sources */,
 				68D042D8244680980086E311 /* SolutionDay1.swift in Sources */,
 				68D0433D244789960086E311 /* SolutionDay11.swift in Sources */,
@@ -291,6 +305,7 @@
 				68D04330244777AF0086E311 /* DataModels.swift in Sources */,
 				68D0432024469A770086E311 /* SolutionDay5.swift in Sources */,
 				68D043322447780E0086E311 /* Extensions.swift in Sources */,
+				68D043422447D65A0086E311 /* SolutionDay13.swift in Sources */,
 				68D0432424469A910086E311 /* SolutionDay7.swift in Sources */,
 				68D0433A244781FC0086E311 /* SolutionDay10.swift in Sources */,
 			);
@@ -304,12 +319,15 @@
 				68D04313244683CE0086E311 /* SolutionDay1.swift in Sources */,
 				68D043152446841F0086E311 /* TestsWeek1.swift in Sources */,
 				68D0432624469BEA0086E311 /* SolutionDay6.swift in Sources */,
+				68D043452447D9740086E311 /* SolutionDay12.swift in Sources */,
 				68D043182446852E0086E311 /* SolutionDay2.swift in Sources */,
 				68D0433B2447830C0086E311 /* SolutionDay10.swift in Sources */,
+				68D043472447DD180086E311 /* SolutionDay14.swift in Sources */,
 				68D043292446E3C80086E311 /* SolutionDay7.swift in Sources */,
 				68D0431B2446887B0086E311 /* SolutionDay3.swift in Sources */,
 				68D0432524469B280086E311 /* SolutionDay5.swift in Sources */,
 				68D0432B244776C50086E311 /* TestsWeek2.swift in Sources */,
+				68D043462447DBC60086E311 /* SolutionDay13.swift in Sources */,
 				68D0433424477A5C0086E311 /* DataModels.swift in Sources */,
 				68D0433E24478DE90086E311 /* SolutionDay11.swift in Sources */,
 				68D0433524477A600086E311 /* SolutionDay8.swift in Sources */,
