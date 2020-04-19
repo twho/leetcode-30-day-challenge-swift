@@ -13,17 +13,18 @@ class SolutionDay1 {
         var dict = [Int:Bool]()
         for num in nums {
             if (dict[num] != nil) {
-                dict[num] = nil
+                dict[num] = false
             } else {
                 dict[num] = true
             }
         }
-        var result: Int?
+        
         for key in dict.keys {
-            if (dict[key] != nil) {
-                result = key
+            if (dict[key] != false) {
+                return key
             }
         }
-        return result!
+        
+        return -1
     }
 }
