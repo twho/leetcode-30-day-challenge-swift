@@ -34,5 +34,4 @@
 | 13 |📙| [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week2/SolutionDay13.swift)|
 | 14 |📗| [Perform String Shifts](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/529/week-2/3299/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week2/SolutionDay14.swift)|
 | 15 |📙| [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week3/SolutionDay15.swift)|
-| 16 |📙| [Valid Parenthesis String
-](https://leetcode.com/problems/valid-parenthesis-string/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week3/SolutionDay16.swift)|
+| 16 |📙| [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week3/SolutionDay16.swift)|
