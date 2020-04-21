@@ -7,6 +7,10 @@
 - We provide straightforward solutions. All solutions and tests are written in [Swift](https://developer.apple.com/swift/).
 - There will be **30** coding problems and solutions at the end of the challenge. 
 
+## Articles 
+*Updates weekly until the challenge ends*
+- [iOS Interview Prep Guide: 30-Day Code Challenge in Swift — Week 1/5](https://medium.com/@twho/ios-interview-prep-guide-30-day-code-challenge-in-swift-week-1-5-7198c6a1477a)
+
 ## Difficulty Legends
 | Difficulty | Easy | Medium | Hard |
 |:--: | :--: | :--: |  :--: |
@@ -27,5 +31,5 @@
 | 10 |📗| [Min Stack](https://leetcode.com/problems/min-stack/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week2/SolutionDay10.swift)|
 | 11 |📗| [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week2/SolutionDay11.swift)|
 | 12 |📗| [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week2/SolutionDay12.swift)|
-| 13 |📗| [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week2/SolutionDay13.swift)|
+| 13 |📙| [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week2/SolutionDay13.swift)|
 | 14 |📗| [Perform String Shifts](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/529/week-2/3299/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week2/SolutionDay14.swift)|
