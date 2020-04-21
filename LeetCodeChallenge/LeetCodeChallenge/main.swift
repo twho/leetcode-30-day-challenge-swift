@@ -9,8 +9,12 @@
 import Foundation
 
 /**
- This place is used as playground! Feel free to debug here.
+ This place is used as a playground! Feel free to debug here.
  
  Ctrl + U to run all tests.
  */
-print("Hello My LeetCode Challenge")
+print("Hello My LeetCode Challenge!")
+
+
+
+

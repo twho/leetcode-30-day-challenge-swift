@@ -81,8 +81,8 @@ class TestsWeek1: XCTestCase {
     }
     
     func testMaxSubArray2() {
-        let input = [1, 2]
-        let expected = 3
+        let input = [1, 2, 7, -8, -4, 3, 85, -32, 20]
+        let expected = 88
         XCTAssertEqual(sol3.maxSubArray(input), expected)
     }
     
