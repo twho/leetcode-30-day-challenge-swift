@@ -158,7 +158,7 @@ class TestsWeek1: XCTestCase {
         XCTAssertEqual(expected, sol7.countElements(input))
     }
     
-    // Performance tests comes later
+    // TODO: Performance tests comes later
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {

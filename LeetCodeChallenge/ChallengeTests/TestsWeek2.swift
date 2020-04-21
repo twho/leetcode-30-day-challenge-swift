@@ -184,11 +184,11 @@ class TestsWeek2: XCTestCase {
         XCTAssertEqual(expected, sol14.stringShift(input.s, input.shift))
     }
     
+    // TODO: Performance tests comes later
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {
             // Put the code you want to measure the time of here.
         }
     }
-
 }
