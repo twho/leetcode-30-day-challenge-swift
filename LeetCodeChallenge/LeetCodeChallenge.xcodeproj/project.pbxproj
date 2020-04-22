@@ -12,6 +12,12 @@
 		68624CED244EAFB50045B06C /* TestsWeek3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68624CEC244EAFB50045B06C /* TestsWeek3.swift */; };
 		68624CEF244EB06A0045B06C /* SolutionDay16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68624CEE244EB06A0045B06C /* SolutionDay16.swift */; };
 		68624CF0244EB06D0045B06C /* SolutionDay16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68624CEE244EB06A0045B06C /* SolutionDay16.swift */; };
+		68624CF2244FC9070045B06C /* SolutionDay17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68624CF1244FC9070045B06C /* SolutionDay17.swift */; };
+		68624CF3244FC9FD0045B06C /* SolutionDay17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68624CF1244FC9070045B06C /* SolutionDay17.swift */; };
+		68624CF5244FCC4B0045B06C /* SolutionDay18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68624CF4244FCC4B0045B06C /* SolutionDay18.swift */; };
+		68624CF6244FCC7D0045B06C /* SolutionDay18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68624CF4244FCC4B0045B06C /* SolutionDay18.swift */; };
+		68624CF8244FCD9B0045B06C /* SolutionDay19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68624CF7244FCD9B0045B06C /* SolutionDay19.swift */; };
+		68624CF9244FCDFB0045B06C /* SolutionDay19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68624CF7244FCD9B0045B06C /* SolutionDay19.swift */; };
 		68D042B5244533BD0086E311 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D042B4244533BD0086E311 /* main.swift */; };
 		68D042D8244680980086E311 /* SolutionDay1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D042C02446723D0086E311 /* SolutionDay1.swift */; };
 		68D04313244683CE0086E311 /* SolutionDay1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D042C02446723D0086E311 /* SolutionDay1.swift */; };
@@ -66,6 +72,9 @@
 		68624CE9244EAF7B0045B06C /* SolutionDay15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionDay15.swift; sourceTree = "<group>"; };
 		68624CEC244EAFB50045B06C /* TestsWeek3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsWeek3.swift; sourceTree = "<group>"; };
 		68624CEE244EB06A0045B06C /* SolutionDay16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionDay16.swift; sourceTree = "<group>"; };
+		68624CF1244FC9070045B06C /* SolutionDay17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionDay17.swift; sourceTree = "<group>"; };
+		68624CF4244FCC4B0045B06C /* SolutionDay18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionDay18.swift; sourceTree = "<group>"; };
+		68624CF7244FCD9B0045B06C /* SolutionDay19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionDay19.swift; sourceTree = "<group>"; };
 		68D042B1244533BD0086E311 /* LeetCodeChallenge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeChallenge; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D042B4244533BD0086E311 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		68D042C02446723D0086E311 /* SolutionDay1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionDay1.swift; sourceTree = "<group>"; };
@@ -174,6 +183,9 @@
 			children = (
 				68624CE9244EAF7B0045B06C /* SolutionDay15.swift */,
 				68624CEE244EB06A0045B06C /* SolutionDay16.swift */,
+				68624CF1244FC9070045B06C /* SolutionDay17.swift */,
+				68624CF4244FCC4B0045B06C /* SolutionDay18.swift */,
+				68624CF7244FCD9B0045B06C /* SolutionDay19.swift */,
 			);
 			path = Week3;
 			sourceTree = "<group>";
@@ -307,6 +319,7 @@
 				68D043402447D6530086E311 /* SolutionDay12.swift in Sources */,
 				68D042B5244533BD0086E311 /* main.swift in Sources */,
 				68D042D8244680980086E311 /* SolutionDay1.swift in Sources */,
+				68624CF2244FC9070045B06C /* SolutionDay17.swift in Sources */,
 				68D0433D244789960086E311 /* SolutionDay11.swift in Sources */,
 				68D0432224469A810086E311 /* SolutionDay6.swift in Sources */,
 				68D04317244684E50086E311 /* SolutionDay2.swift in Sources */,
@@ -316,11 +329,13 @@
 				68D0431A244687920086E311 /* SolutionDay3.swift in Sources */,
 				68D04330244777AF0086E311 /* DataModels.swift in Sources */,
 				68D0432024469A770086E311 /* SolutionDay5.swift in Sources */,
+				68624CF5244FCC4B0045B06C /* SolutionDay18.swift in Sources */,
 				68D043322447780E0086E311 /* Extensions.swift in Sources */,
 				68D043422447D65A0086E311 /* SolutionDay13.swift in Sources */,
 				68624CEA244EAF7B0045B06C /* SolutionDay15.swift in Sources */,
 				68D0432424469A910086E311 /* SolutionDay7.swift in Sources */,
 				68D0433A244781FC0086E311 /* SolutionDay10.swift in Sources */,
+				68624CF8244FCD9B0045B06C /* SolutionDay19.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68D0431E24468A220086E311 /* SolutionDay4.swift in Sources */,
+				68624CF9244FCDFB0045B06C /* SolutionDay19.swift in Sources */,
 				68D04313244683CE0086E311 /* SolutionDay1.swift in Sources */,
 				68624CF0244EB06D0045B06C /* SolutionDay16.swift in Sources */,
 				68D043152446841F0086E311 /* TestsWeek1.swift in Sources */,
@@ -339,12 +355,14 @@
 				68D043472447DD180086E311 /* SolutionDay14.swift in Sources */,
 				68D043292446E3C80086E311 /* SolutionDay7.swift in Sources */,
 				68D0431B2446887B0086E311 /* SolutionDay3.swift in Sources */,
+				68624CF3244FC9FD0045B06C /* SolutionDay17.swift in Sources */,
 				68D0432524469B280086E311 /* SolutionDay5.swift in Sources */,
 				68624CED244EAFB50045B06C /* TestsWeek3.swift in Sources */,
 				68D0432B244776C50086E311 /* TestsWeek2.swift in Sources */,
 				68D043462447DBC60086E311 /* SolutionDay13.swift in Sources */,
 				68D0433424477A5C0086E311 /* DataModels.swift in Sources */,
 				68D0433E24478DE90086E311 /* SolutionDay11.swift in Sources */,
+				68624CF6244FCC7D0045B06C /* SolutionDay18.swift in Sources */,
 				68D0433524477A600086E311 /* SolutionDay8.swift in Sources */,
 				68D04338244780CB0086E311 /* SolutionDay9.swift in Sources */,
 				68D0433324477A590086E311 /* Extensions.swift in Sources */,
