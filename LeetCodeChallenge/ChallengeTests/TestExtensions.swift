@@ -43,3 +43,21 @@ extension ListNode {
         return true
     }
 }
+
+class TestBinaryMatrix: BinaryMatrix {
+    private var getCallCount = 0
+    
+    override init(matrix: [[Int]]) {
+        super.init(matrix: matrix)
+        self.getCallCount = 0
+    }
+    
+    override func get(_ x: Int, _ y: Int) -> Int {
+        if getCallCount == 100 {
+            assertionFailure("Error. 100 API calls limit reached.")
+        }
+        
+        getCallCount += 1
+        return super.get(x, y)
+    }
+}

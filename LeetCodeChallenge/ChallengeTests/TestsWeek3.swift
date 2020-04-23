@@ -14,6 +14,8 @@ class TestsWeek3: XCTestCase {
     let sol17 = SolutionDay17()
     let sol18 = SolutionDay18()
     let sol19 = SolutionDay19()
+    let sol20 = SolutionDay20()
+    let sol21 = SolutionDay21()
     
     // MARK: - Day 15: Product of Array Except Self
     func testProductExceptSelf1() {
@@ -144,7 +146,93 @@ class TestsWeek3: XCTestCase {
         let expected = 1
         XCTAssertEqual(expected, sol19.search(input.nums, input.target))
     }
-
+    
+    // MARK: - Day 20: Construct Binary Search Tree from Preorder Traversal
+    func testConstructBSTFromPreorderTraversal1() {
+        let input = [8, 5, 1, 7, 10, 12]
+        /**
+        Tree structure
+                    8
+                  /   \
+                 5     10
+                / \     \
+               1   7    12
+        */
+        let expected = [
+            8,
+            5, 10,
+            1, 7, nil, 12
+        ].convertToBinaryTree()
+        
+        let output = BinarySearchTree(root: sol20.bstFromPreorder(input))
+        XCTAssertTrue(output.isEqualToOtherTree(expected))
+    }
+    
+    func testConstructBSTFromPreorderTraversal2() {
+        let input = [9, 5, 3, 8, 10, 15, 13, 19, 25]
+        /**
+        Tree structure
+                    9
+                  /   \
+                 5     10
+                / \     \
+               3   8    15
+                       /  \
+                      13  19
+                            \
+                            25
+        */
+        let expected = [
+            9,
+            5, 10,
+            3, 8, nil, 15,
+            nil, nil, nil, nil, nil, nil, 13, 19,
+            nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, 25
+        ].convertToBinaryTree()
+        
+        let output = BinarySearchTree(root: sol20.bstFromPreorder(input))
+        XCTAssertTrue(output.isEqualToOtherTree(expected))
+    }
+    
+    
+    
+    // MARK: - Day 21: Leftmost Column with at Least a One
+    func testLeftmostColumnWithAtLeastOne1() {
+        let input = [
+            [0, 0, 0, 1],
+            [0, 0, 1, 1],
+            [0, 1, 1, 1]
+        ]
+        let expected = 1
+        let bm = TestBinaryMatrix(matrix: input)
+        XCTAssertEqual(expected, sol21.leftMostColumnWithOne(bm))
+    }
+    
+    func testLeftmostColumnWithAtLeastOne2() {
+        let input = [
+            [0, 0],
+            [0, 0]
+        ]
+        let expected = -1
+        let bm = TestBinaryMatrix(matrix: input)
+        XCTAssertEqual(expected, sol21.leftMostColumnWithOne(bm))
+    }
+    
+    func testLeftmostColumnWithAtLeastOne3() {
+        let input = [
+            [0, 0, 0, 0, 1],
+            [0, 0, 1, 1, 1],
+            [0, 0, 0, 1, 1],
+            [0, 1, 1, 1, 1],
+            [0, 0, 0, 0, 0],
+            [1, 1, 1, 1, 1],
+        ]
+        let expected = 0
+        let bm = TestBinaryMatrix(matrix: input)
+        XCTAssertEqual(expected, sol21.leftMostColumnWithOne(bm))
+    }
+    
+    
     // TODO: Performance tests comes later
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
@@ -153,3 +241,17 @@ class TestsWeek3: XCTestCase {
         }
     }
 }
+
+/**
+ [
+ [0,0,1,1,1,1,1,1],
+ [0,0,0,0,0,1,1,1],
+ [0,0,0,1,1,1,1,1],
+ [0,0,0,0,0,1,1,1],
+ [0,0,0,1,1,1,1,1],
+ [0,0,1,1,1,1,1,1],
+ [0,0,0,0,1,1,1,1],
+ [0,1,1,1,1,1,1,1]
+ ]
+ */
+

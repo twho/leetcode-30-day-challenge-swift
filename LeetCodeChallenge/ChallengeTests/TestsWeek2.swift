@@ -165,6 +165,12 @@ class TestsWeek2: XCTestCase {
         XCTAssertEqual(expected, sol13.findMaxLength(input))
     }
     
+    func testContiguousArray4() {
+        let input = [0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0]
+        let expected = 12
+        XCTAssertEqual(expected, sol13.findMaxLength(input))
+    }
+    
     // MARK: - Day 14: Perform String Shifts
     func testPerformStringShifts1() {
         let input = (s: "abc", shift: [[0,1], [1,2]])
