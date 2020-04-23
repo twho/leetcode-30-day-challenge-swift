@@ -38,3 +38,6 @@
 | 17 |📙| [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week3/SolutionDay17.swift)|
 | 18 |📙| [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week3/SolutionDay18.swift)|
 | 19 |📙| [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week3/SolutionDay19.swift)|
+| 20 |📙| [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week3/SolutionDay20.swift)|
+| 21 |📙| [Leftmost Column with at Least a One
+](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/530/week-3/3306/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week3/SolutionDay21.swift)|
