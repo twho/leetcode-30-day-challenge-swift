@@ -9,29 +9,29 @@
 // LeetCode: https://leetcode.com/problems/min-stack/
 class SolutionDay10 {
     
-    class MinStack {
-        var arr: [Node]
+    class MinStack: MinStackProtocol {
+        var stack: [Node]
         
         /** initialize your data structure here. */
         init() {
-            arr = [Node]()
+            stack = [Node]()
         }
         
         func push(_ x: Int) {
-            arr.append(Node(x, min(x, getMin())))
+            stack.append(Node(x, min(x, getMin())))
         }
         
         func pop() {
-            arr.removeLast()
+            stack.removeLast()
         }
         
         func top() -> Int {
-            guard let last = arr.last else { return -1 }
+            guard let last = stack.last else { return -1 }
             return last.val
         }
         
         func getMin() -> Int {
-            guard let last = arr.last else { return Int.max }
+            guard let last = stack.last else { return Int.max }
             return last.minVal
         }
     }
@@ -45,4 +45,15 @@ class SolutionDay10 {
             self.minVal = minVal
         }
     }
+}
+
+protocol MinStackProtocol {
+    // Push element x onto stack.
+    func push(_ x: Int)
+    // Removes the element on top of the stack.
+    func pop()
+    // Get the top element.
+    func top() -> Int
+    // Retrieve the minimum element in the stack.
+    func getMin() -> Int
 }
