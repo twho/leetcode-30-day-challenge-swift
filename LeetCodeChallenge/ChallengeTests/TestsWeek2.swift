@@ -62,11 +62,17 @@ class TestsWeek2: XCTestCase {
         minStack.push(-2)
         minStack.push(0)
         minStack.push(-3)
-        XCTAssertEqual(-3, minStack.getMin())
+        minStack.push(-6)
+        minStack.push(3)
+        minStack.push(7)
+        XCTAssertEqual(-6, minStack.getMin())
         
         minStack.pop()
-        XCTAssertEqual(0, minStack.top())
-        XCTAssertEqual(-2, minStack.getMin())
+        XCTAssertEqual(3, minStack.top())
+        
+        minStack.pop()
+        minStack.pop()
+        XCTAssertEqual(-3, minStack.getMin())
     }
     
     func testMinStack2() {
