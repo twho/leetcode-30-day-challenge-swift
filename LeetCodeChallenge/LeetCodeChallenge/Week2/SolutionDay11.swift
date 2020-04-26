@@ -11,13 +11,32 @@ class SolutionDay11 {
     
     func diameterOfBinaryTree(_ root: TreeNode?) -> Int {
         guard let root = root else { return 0 }
-        
-        let length = calculateMaxLength(root.left) + calculateMaxLength(root.right)
-        return max(length, diameterOfBinaryTree(root.left), diameterOfBinaryTree(root.right))
+
+        var output = 0
+        let _ = calculateLocalMaxLength(root, &output)
+        return output - 1
     }
-    
-    func calculateMaxLength(_ root: TreeNode?) -> Int {
+    /**
+     This function solves the problem of calculating the longest one-way
+     length that associated with a tree node. Let's define a leg as the
+     one-way path that does not pass the root.
+     
+     - Parameter root:   The root node to start with.
+     - Parameter output: The output tracks the longest path in the entire tree.
+     */
+    func calculateLocalMaxLength(_ root: TreeNode?, _ output: inout Int) -> Int {
         guard let root = root else { return 0 }
-        return 1 + max(calculateMaxLength(root.left), calculateMaxLength(root.right))
+
+        // A local longest path is calculcated by adding up its longest left and right legs.
+        let left = calculateLocalMaxLength(root.left, &output)
+        let right = calculateLocalMaxLength(root.right, &output)
+        let localLongestPath = left + right + 1
+        
+        // This helps obtain the longest path of the tree by comparing each caculation.
+        output = max(output, localLongestPath)
+
+        // A leg is caclulated by adding itself to its longer leg.
+        // Note: The leg is defined to not pass its root node.
+        return 1 + max(left, right)
     }
 }
