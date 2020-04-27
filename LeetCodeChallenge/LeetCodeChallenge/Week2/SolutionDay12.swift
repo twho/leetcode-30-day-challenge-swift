@@ -21,10 +21,12 @@ class SolutionDay12 {
             let last1 = sorted.removeLast()
             let last2 = sorted.removeLast()
             
-            sorted.append(last1 - last2)
-            sorted.sort()
+            if last1 != last2 {
+                sorted.append(last1 - last2)
+                sorted.sort()
+            }
         }
         
-        return sorted[0]
+        return sorted.count > 0 ? sorted[0] : 0
     }
 }
