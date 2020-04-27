@@ -10,6 +10,7 @@
 ## Articles 
 *Updates weekly until the challenge ends*
 - [iOS Interview Prep Guide: 30-Day Code Challenge in Swift — Week 1/5](https://medium.com/@twho/ios-interview-prep-guide-30-day-code-challenge-in-swift-week-1-5-7198c6a1477a)
+- [iOS Interview Prep Guide: 30-Day Code Challenge in Swift — Week 2/5](https://medium.com/@twho/ios-interview-prep-guide-30-day-code-challenge-in-swift-week-2-5-f8d14df99179)
 
 ## Difficulty Legends
 | Difficulty | Easy | Medium | Hard |
