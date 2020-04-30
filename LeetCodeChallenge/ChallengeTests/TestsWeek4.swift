@@ -10,6 +10,7 @@ import XCTest
 
 class TestsWeek4: XCTestCase {
     let sol22 = SolutionDay22()
+    let sol23 = SolutionDay23()
     let sol25 = SolutionDay25()
     
     // MARK: - Day 22: Subarray Sum Equals K
@@ -28,6 +29,17 @@ class TestsWeek4: XCTestCase {
     }
     
     // MARK: - Day 23: Bitwise AND of Numbers Range
+    func testBitwiseANDOfNumbersRange1() {
+        let input = (5, 7)
+        let expected = 4
+        XCTAssertEqual(expected, sol23.rangeBitwiseAnd(input.0, input.1))
+    }
+    
+    func testBitwiseANDOfNumbersRange2() {
+        let input = (0, 1)
+        let expected = 0
+        XCTAssertEqual(expected, sol23.rangeBitwiseAnd(input.0, input.1))
+    }
     
     // MARK: - Day 24: LRU Cache
     func testLRUCache1() {
