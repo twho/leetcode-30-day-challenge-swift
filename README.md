@@ -45,3 +45,6 @@
 | 23 |📙| [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week4/SolutionDay23.swift)|
 | 24 |📙| [LRU Cache](https://leetcode.com/problems/lru-cache/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week4/SolutionDay24.swift)|
 | 25 |📙| [Jump Game](https://leetcode.com/problems/jump-game/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week4/SolutionDay25.swift)|
+| 26 |📙| [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week4/SolutionDay26.swift)|
+| 27 |📙| [Maximal Square](https://leetcode.com/problems/maximal-square/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week4/SolutionDay27.swift)|
+| 28 |📙| [Jump Game](https://leetcode.com/problems/jump-game/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week4/SolutionDay28.swift)|
