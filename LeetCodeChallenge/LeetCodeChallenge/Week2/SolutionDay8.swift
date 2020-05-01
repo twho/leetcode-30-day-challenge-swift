@@ -9,11 +9,11 @@
 // LeetCode: https://leetcode.com/problems/middle-of-the-linked-list/
 class SolutionDay8 {
     
-    func middleNode(_ head: ListNode?) -> ListNode? {
+    func middleNode(_ head: SinglyListNode?) -> SinglyListNode? {
         guard head != nil else { return nil }
         
-        var slowNode: ListNode? = head
-        var fastNode: ListNode? = head
+        var slowNode: SinglyListNode? = head
+        var fastNode: SinglyListNode? = head
         
         while fastNode?.next != nil {
             slowNode = slowNode?.next

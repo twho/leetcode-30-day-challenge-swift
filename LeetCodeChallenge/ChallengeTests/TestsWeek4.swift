@@ -12,6 +12,8 @@ class TestsWeek4: XCTestCase {
     let sol22 = SolutionDay22()
     let sol23 = SolutionDay23()
     let sol25 = SolutionDay25()
+    let sol26 = SolutionDay26()
+    let sol27 = SolutionDay27()
     
     // MARK: - Day 22: Subarray Sum Equals K
     func testSubarraySumEqualsK1() {
@@ -90,6 +92,89 @@ class TestsWeek4: XCTestCase {
     func testJumpGame3() {
         let input = [1, 2, 3]
         XCTAssertTrue(sol25.canJump(input))
+    }
+    
+    // MARK: - Day 26: Longest Common Subsequence
+    func testLongestCommonSubsequence1() {
+        let input = ("abcde", "ace")
+        let expected = 3
+        XCTAssertEqual(expected, sol26.longestCommonSubsequence(input.0, input.1))
+    }
+    
+    func testLongestCommonSubsequence2() {
+        let input = ("abc", "def")
+        let expected = 0
+        XCTAssertEqual(expected, sol26.longestCommonSubsequence(input.0, input.1))
+    }
+    
+    func testLongestCommonSubsequence3() {
+        let input = ("abc", "abc")
+        let expected = 3
+        XCTAssertEqual(expected, sol26.longestCommonSubsequence(input.0, input.1))
+    }
+    
+    func testLongestCommonSubsequence4() {
+        let input = ("pmjghexybyrgzczy", "hafcdqbgncrcbihkd")
+        let expected = 4
+        XCTAssertEqual(expected, sol26.longestCommonSubsequence(input.0, input.1))
+    }
+    
+    func testLongestCommonSubsequence5() {
+        let input = ("hofubmnylkra", "pqhgxgdofcvmr")
+        let expected = 5
+        XCTAssertEqual(expected, sol26.longestCommonSubsequence(input.0, input.1))
+    }
+    
+    // MARK: - Day 27: Maximal Square
+    func testMaximalSquare1() {
+        let input: [[Character]] = [
+            ["1", "0", "1", "0", "0"],
+            ["1", "0", "1", "1", "1"],
+            ["1", "1", "1", "1", "1"],
+            ["1", "0", "0", "1", "0"]
+        ]
+        let expected = 4
+        XCTAssertEqual(expected, sol27.maximalSquare(input))
+    }
+    
+    func testMaximalSquare2() {
+        let input: [[Character]] = [
+            ["1", "0", "0", "1", "0"],
+            ["1", "1", "1", "1", "1"],
+            ["1", "1", "1", "1", "1"],
+            ["1", "1", "1", "1", "0"]
+        ]
+        let expected = 9
+        XCTAssertEqual(expected, sol27.maximalSquare(input))
+    }
+    
+    // MARK: - Day 28: First Unique Number
+    func testFirstUniqueNumber1() {
+        let firstUnique = SolutionDay28.FirstUnique([2, 3, 5])
+        XCTAssertEqual(2, firstUnique.showFirstUnique())
+        firstUnique.add(5)
+        XCTAssertEqual(2, firstUnique.showFirstUnique())
+        firstUnique.add(2)
+        XCTAssertEqual(3, firstUnique.showFirstUnique())
+        firstUnique.add(3)
+        XCTAssertEqual(-1, firstUnique.showFirstUnique())
+    }
+    
+    func testFirstUniqueNumber2() {
+        let firstUnique = SolutionDay28.FirstUnique([7, 7, 7, 7, 7, 7])
+        XCTAssertEqual(-1, firstUnique.showFirstUnique())
+        firstUnique.add(7)
+        firstUnique.add(3)
+        firstUnique.add(3)
+        firstUnique.add(17)
+        XCTAssertEqual(17, firstUnique.showFirstUnique())
+    }
+    
+    func testFirstUniqueNumber3() {
+        let firstUnique = SolutionDay28.FirstUnique([809])
+        XCTAssertEqual(809, firstUnique.showFirstUnique())
+        firstUnique.add(809)
+        XCTAssertEqual(-1, firstUnique.showFirstUnique())
     }
     
     func testPerformanceExample() throws {
