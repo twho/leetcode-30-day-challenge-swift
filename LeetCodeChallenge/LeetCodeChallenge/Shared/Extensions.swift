@@ -8,17 +8,17 @@
 
 extension Array where Element == Int {
     
-    public func convertToLinkedList() -> ListNode? {
+    public func convertToLinkedList() -> SinglyListNode? {
         guard self.count > 0 else {
             return nil
         }
         
-        let head = ListNode(self[0])
+        let head = SinglyListNode(self[0])
         var idx = 1
-        var node: ListNode? = head
+        var node: SinglyListNode? = head
         
         while idx < self.count {
-            node?.next = ListNode(self[idx])
+            node?.next = SinglyListNode(self[idx])
             node = node?.next
             idx += 1
         }

@@ -22,15 +22,15 @@ extension Array where Element: Collection, Element.Element: Comparable {
     }
 }
 
-extension ListNode {
+extension SinglyListNode {
     
-    func isEqualToLinkedList(_ otherHead: ListNode?) -> Bool {
+    func isEqualToLinkedList(_ otherHead: SinglyListNode?) -> Bool {
         guard otherHead != nil else {
             return false
         }
         
         var otherNode = otherHead
-        var node: ListNode? = self
+        var node: SinglyListNode? = self
         
         while node != nil {
             if otherNode == nil || (node?.val)! != (otherNode?.val)! {

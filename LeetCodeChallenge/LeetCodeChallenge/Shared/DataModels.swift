@@ -7,13 +7,26 @@
 //
 
 // Definition for singly-linked list.
-public class ListNode {
+public class SinglyListNode {
     public var val: Int
-    public var next: ListNode?
+    public var next: SinglyListNode?
     
     public init(_ val: Int) {
         self.val = val
         self.next = nil
+    }
+}
+
+// Definition for doubly-linked list.
+public class DoublyListNode {
+    public var val: Int
+    public var next: DoublyListNode?
+    public var prev: DoublyListNode?
+    
+    public init(_ val: Int) {
+        self.val = val
+        self.next = nil
+        self.prev = nil
     }
 }
 
