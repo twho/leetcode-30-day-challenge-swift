@@ -7,40 +7,36 @@
 //
 
 // LeetCode: https://leetcode.com/problems/search-in-rotated-sorted-array/
+// The solution's runtime complexity must be in the order of O(log n).
 class SolutionDay19 {
     
     func search(_ nums: [Int], _ target: Int) -> Int {
         guard nums.count > 0 else { return -1 }
         
-        var originalStart = 0
-        for idx in 0..<nums.count {
-            if idx > 0, nums[idx] < nums[idx - 1] {
-                originalStart = idx
-                break
-            }
-        }
-        
         var start = 0
         var end = nums.count - 1
-        if originalStart != 0 {
-            if target == nums[originalStart] {
-                return originalStart
-            } else if target >= nums[start] {
-                end = originalStart - 1
-            } else if target <= nums[end], target > nums[originalStart] {
-                start = originalStart + 1
-            }
-        }
-        
         while start <= end {
-            var mid = (start + end) / 2
+            let mid = start + (end - start) / 2
+            let midVal = nums[mid]
             
-            if target == nums[mid] {
+            if target == midVal {
                 return mid
-            } else if target < nums[mid] {
-                end = mid - 1
+            } else if target == nums[start] {
+                return start
+            } else if target == nums[end] {
+                return end
+            } else if midVal > nums[start] {
+                if target < midVal, target > nums[start] {
+                    end = mid - 1
+                } else {
+                    start = mid + 1
+                }
             } else {
-                start = mid + 1
+                if target > midVal, target < nums[end] {
+                    start = mid + 1
+                } else {
+                    end = mid - 1
+                }
             }
         }
         
