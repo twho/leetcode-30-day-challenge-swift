@@ -1,11 +1,12 @@
-# Leetcode 30-Day Challenge April 2020
+# Leetcode 30-Day Challenge April and May Edition
 
 [![Swift 4.2](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)](https://developer.apple.com/swift/)  [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/twho/LeetCode-Swift/blob/master/LICENSE)
 
 ## Summary
-- This project aims at solving [LeetCode 30-Day Challenge](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/) problems. 
+- This project aims at solving [LeetCode 30-Day Challenge April Edition](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/) and [May LeetCoding Challenge](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/)  problems. 
 - We provide straightforward solutions. All solutions and tests are written in [Swift](https://developer.apple.com/swift/).
-- There will be **30** coding problems and solutions at the end of the challenge. 
+- There are **30** programming problems and solutions for April challenge. 
+- An  additional set of **30** code problems and solutions will be uploaded by the end of [May LeetCoding Challenge](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/).
 
 ## Articles 
 *Updates weekly until the challenge ends*
@@ -17,7 +18,8 @@
 |:--: | :--: | :--: |  :--: |
 | Icon | 📗 | 📙 | 📕 |
 
-## Table
+## April Challenge
+### April 1st - April 30th
 | Day | Diffculty | Problem | Solution |
 |:--:| :--: | :-- | -- |
 | 1 |📗|[Single Number](https://leetcode.com/problems/single-number/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/Week1/SolutionDay1.swift)|
