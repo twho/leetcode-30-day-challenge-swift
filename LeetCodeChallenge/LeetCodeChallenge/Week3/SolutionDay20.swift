@@ -11,24 +11,28 @@ class SolutionDay20 {
     
     func bstFromPreorder(_ preorder: [Int]) -> TreeNode? {
         guard preorder.count > 0 else { return nil }
+        return bstFromPreorder(preorder, 0, preorder.count - 1)
+    }
+    
+    private func bstFromPreorder(_ preorder: [Int], _ start: Int, _ end: Int) -> TreeNode? {
+        let root = TreeNode(preorder[start])
         
-        let root = TreeNode(preorder[0])
-        if preorder.count > 0 {
+        if start + 1 <= end, preorder.count > 1 {
             var rightRootIdx = -1
-            for idx in 1..<preorder.count {
-                if preorder[idx] > preorder[0] {
+            for idx in start+1...end {
+                if preorder[idx] > preorder[start] {
                     rightRootIdx = idx
                     break
                 }
             }
             
-            if rightRootIdx == 1 {
-                root.right = bstFromPreorder(Array(preorder[rightRootIdx..<preorder.count]))
-            } else if rightRootIdx == -1 {
-                root.left = bstFromPreorder(Array(preorder[1..<preorder.count]))
+            if rightRootIdx == start + 1 {
+                root.right = bstFromPreorder(preorder, rightRootIdx, end)
+            } else if rightRootIdx == -1  {
+                root.left = bstFromPreorder(preorder, start + 1, end)
             } else {
-                root.right = bstFromPreorder(Array(preorder[rightRootIdx..<preorder.count]))
-                root.left = bstFromPreorder(Array(preorder[1..<rightRootIdx]))
+                root.right = bstFromPreorder(preorder, rightRootIdx, end)
+                root.left = bstFromPreorder(preorder, start + 1, rightRootIdx - 1)
             }
         }
         return root

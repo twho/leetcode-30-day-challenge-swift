@@ -14,15 +14,15 @@ class SolutionDay21 {
         
         var x = 0
         var y = dim[1] - 1
-        var lastOne = -1
+        var currentLeftMost = -1
         while x < dim[0], y >= 0 {
             if y - 1 >= 0 && binaryMatrix.get(x, y - 1) == 1 {
                 y -= 1
-                lastOne = y
+                currentLeftMost = y
             } else if x + 1 < dim[0] {
                 x += 1
             } else {
-                return binaryMatrix.get(x, y) == 1 ? y : lastOne
+                return binaryMatrix.get(x, y) == 1 ? y : currentLeftMost
             }
         }
         return -1

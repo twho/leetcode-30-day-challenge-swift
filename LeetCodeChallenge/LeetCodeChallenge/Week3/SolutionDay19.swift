@@ -26,12 +26,18 @@ class SolutionDay19 {
             } else if target == nums[end] {
                 return end
             } else if midVal > nums[start] {
+                // If it falls into this condition, it means the first half of
+                // the array is not rotated. Therefore, we can decide if the
+                // target falls into the first half or not.
                 if target < midVal, target > nums[start] {
                     end = mid - 1
                 } else {
                     start = mid + 1
                 }
             } else {
+                // If it falls into this condition, it means the second half of
+                // the array is not rotated. Therefore, we can decide if the
+                // target falls into the second half or not.
                 if target > midVal, target < nums[end] {
                     start = mid + 1
                 } else {
