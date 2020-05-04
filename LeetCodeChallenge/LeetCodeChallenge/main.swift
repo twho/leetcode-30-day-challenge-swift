@@ -11,7 +11,7 @@ import Foundation
 /**
  This place is used as a playground! Feel free to debug here.
  
- Ctrl + U to run all tests.
+ Command + U to run all tests.
  */
 print("Hello My LeetCode Challenge!")
 
