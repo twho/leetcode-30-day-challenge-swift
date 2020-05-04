@@ -49,7 +49,7 @@
 | 25 |📙| [Jump Game](https://leetcode.com/problems/jump-game/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/AprilWeek4/AprilSolDay25.swift)|
 | 26 |📙| [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/AprilWeek4/AprilSolDay26.swift)|
 | 27 |📙| [Maximal Square](https://leetcode.com/problems/maximal-square/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/AprilWeek4/AprilSolDay27.swift)|
-| 28 |📙| [Jump Game](https://leetcode.com/problems/jump-game/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/AprilWeek4/AprilSolDay28.swift)|
+| 28 |📙| [First Unique Number](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/531/week-4/3313/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/AprilWeek4/AprilSolDay28.swift)|
 | 29 |📕| [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/AprilWeek5/AprilSolDay29.swift)|
 | 30 |📙| [A String Is a Root-to-Leaf Path in a Binary Tree](https://thefellowprogrammer.blogspot.com/2020/04/check-if-string-is-valid-sequence-from.html) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/AprilWeek5/AprilSolDay30.swift)|
 
