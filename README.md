@@ -51,4 +51,11 @@
 | 27 |📙| [Maximal Square](https://leetcode.com/problems/maximal-square/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/AprilWeek4/AprilSolDay27.swift)|
 | 28 |📙| [Jump Game](https://leetcode.com/problems/jump-game/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/AprilWeek4/AprilSolDay28.swift)|
 | 29 |📕| [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/AprilWeek5/AprilSolDay29.swift)|
-| 30 |📙| [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://thefellowprogrammer.blogspot.com/2020/04/check-if-string-is-valid-sequence-from.html) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/AprilWeek5/AprilSolDay30.swift)|
+| 30 |📙| [A String Is a Root-to-Leaf Path in a Binary Tree](https://thefellowprogrammer.blogspot.com/2020/04/check-if-string-is-valid-sequence-from.html) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/AprilWeek5/AprilSolDay30.swift)|
+
+## May Challenge
+### May 1st - May 31st
+| Day | Diffculty | Problem | Solution |
+|:--:| :--: | :-- | -- |
+| 1 |📗|[First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/MayWeek1/MaySolDay1.swift)|
+| 2 |📗|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/MayWeek1/MaySolDay2.swift)|
