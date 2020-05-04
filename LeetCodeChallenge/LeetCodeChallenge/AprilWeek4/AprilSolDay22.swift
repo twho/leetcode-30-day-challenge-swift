@@ -10,20 +10,26 @@
 class AprilSolDay22 {
     
     func subarraySum(_ nums: [Int], _ k: Int) -> Int {
-        var accumulates = Array(repeating: 0, count: nums.count)
-        
         var output = 0
-        var time = 0
-        while time < nums.count {
+        var dict = [0:1] // [sum:count]
+        
+        var sum = 0
+        for num in nums {
+            sum += num
             
-            for i in time..<accumulates.count {
-                accumulates[i] += nums[i - time]
-                if accumulates[i] == k {
-                    output += 1
-                }
+            /**
+             Let's define prevSum = sum - k
+             If sum is larger than target k, try to find if sum - k has
+             occurred in the iteration. If it has, retrieve the times when
+             sum == prevSum. Since we can exclude those subarrays that have
+             a sum of prevSum, the count of subarray has target k can be
+             increased by the count of those subarrays.
+             */
+            if let count = dict[sum - k] {
+                output += count
             }
             
-            time += 1
+            dict[sum] = (dict[sum] ?? 0) + 1
         }
         
         return output
