@@ -12,6 +12,9 @@ import XCTest
 class TestsMayWeek1: XCTestCase {
     let sol1 = MaySolDay1()
     let sol2 = MaySolDay2()
+    let sol3 = MaySolDay3()
+    let sol4 = MaySolDay4()
+    let sol5 = MaySolDay5()
     
     // MARK: - Day 1: First Bad Version
     func testFirstBadVersion1() {
@@ -41,6 +44,48 @@ class TestsMayWeek1: XCTestCase {
         XCTAssertEqual(expected, sol2.numJewelsInStones(input.J, input.S))
     }
 
+    // MARK: - Day 3: Ransom Note
+    func testRansomNote1() {
+        let input = (ransomNote: "a", magazine: "b")
+        XCTAssertFalse(sol3.canConstruct(input.ransomNote, input.magazine))
+    }
+    
+    func testRansomNote2() {
+        let input = (ransomNote: "aa", magazine: "ab")
+        XCTAssertFalse(sol3.canConstruct(input.ransomNote, input.magazine))
+    }
+    
+    func testRansomNote3() {
+        let input = (ransomNote: "aa", magazine: "aab")
+        XCTAssertTrue(sol3.canConstruct(input.ransomNote, input.magazine))
+    }
+    
+    // MARK: - Day 4: Number Complement
+    func testNumberComplement1() {
+        let input = 5
+        let expected = 2
+        XCTAssertEqual(expected, sol4.findComplement(input))
+    }
+    
+    func testNumberComplement2() {
+        let input = 1
+        let expected = 0
+        XCTAssertEqual(expected, sol4.findComplement(input))
+    }
+    
+    // MARK: - Day 5: First Unique Character in a String
+    func testFirstUniqueCharacterInString1() {
+        let input = "leetcode"
+        let expected = 0
+        XCTAssertEqual(expected, sol5.firstUniqChar(input))
+    }
+    
+    func testFirstUniqueCharacterInString2() {
+        let input = "loveleetcode"
+        let expected = 2
+        XCTAssertEqual(expected, sol5.firstUniqChar(input))
+    }
+    
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {
