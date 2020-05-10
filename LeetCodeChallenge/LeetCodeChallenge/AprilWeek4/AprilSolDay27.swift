@@ -12,19 +12,19 @@ class AprilSolDay27 {
     func maximalSquare(_ matrix: [[Character]]) -> Int {
         guard matrix.count > 0, matrix[0].count > 0 else { return 0 }
         var dp = Array(repeating: Array(repeating: 0, count: matrix[0].count), count: matrix.count)
-        var result = 0
-        for i in 0..<matrix.count {
-            for j in 0..<matrix[i].count {
-                if matrix[i][j] == "1" {
-                    if i > 0, j > 0 {
-                        dp[i][j] = min(dp[i-1][j-1], dp[i-1][j], dp[i][j - 1] ) + 1
+        var maxSideLength = 0
+        for x in 0..<matrix.count {
+            for y in 0..<matrix[x].count {
+                if matrix[x][y] == "1" {
+                    if x > 0, y > 0 {
+                        dp[x][y] = min(dp[x - 1][y - 1], dp[x - 1][y], dp[x][y - 1] ) + 1
                     } else {
-                        dp[i][j] = Int(String(matrix[i][j]))!
+                        dp[x][y] = Int(String(matrix[x][y]))!
                     }
-                    result = max(result, dp[i][j])
+                    maxSideLength = max(maxSideLength, dp[x][y])
                 }
             }
         }
-        return result*result
+        return maxSideLength*maxSideLength
     }
 }

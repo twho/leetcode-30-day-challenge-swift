@@ -17,19 +17,21 @@ class AprilSolDay26 {
         var dp = Array(repeating: Array(repeating: 0, count: arr2.count), count: arr1.count)
         for i in 0..<arr1.count {
             for j in 0..<arr2.count {
-                if arr1[i] == arr2[j] {
+                let idx1 = arr1.count - 1 - i
+                let idx2 = arr2.count - 1 - j
+                if arr1[idx1] == arr2[idx2] {
                     if i > 0, j > 0 {
-                        dp[i][j] += dp[i - 1][j - 1]
+                        dp[idx1][idx2] += dp[idx1 + 1][idx2 + 1]
                     }
-                    dp[i][j] += 1
+                    dp[idx1][idx2] += 1
                 } else {
-                    let accum1 = i > 0 ? dp[i - 1][j] : 0
-                    let accum2 = j > 0 ? dp[i][j - 1] : 0
-                    dp[i][j] += max(accum1, accum2)
+                    let accum1 = i > 0 ? dp[idx1 + 1][idx2] : 0
+                    let accum2 = j > 0 ? dp[idx1][idx2 + 1] : 0
+                    dp[idx1][idx2] += max(accum1, accum2)
                 }
             }
         }
-        return dp[arr1.count - 1][arr2.count - 1]
+        return dp[0][0]
     }
 }
 

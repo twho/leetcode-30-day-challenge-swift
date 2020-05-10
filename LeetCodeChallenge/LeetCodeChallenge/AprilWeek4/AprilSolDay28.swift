@@ -9,12 +9,12 @@
 // LeetCode: https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/531/week-4/3313/
 class AprilSolDay28 {
     
-    class FirstUnique {
+    class FirstUnique: FirstUniqueProtocol {
         var dict: [Int:DoublyListNode]
         var head: DoublyListNode
         var tail: DoublyListNode
 
-        init(_ nums: [Int]) {
+        required init(_ nums: [Int]) {
             dict = [Int:DoublyListNode]()
             
             head = DoublyListNode(-1)
@@ -57,4 +57,14 @@ class AprilSolDay28 {
             }
         }
     }
+}
+
+protocol FirstUniqueProtocol {
+    // Initializes the object with the numbers in the queue
+    init(_ nums: [Int])
+    // Returns the value of the first unique integer of the queue, and
+    // returns -1 if there is no such integer.
+    func showFirstUnique() -> Int
+    // Insert the value to the queue.
+    func add(_ val: Int)
 }
