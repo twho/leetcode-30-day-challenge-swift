@@ -15,6 +15,8 @@ class TestsMayWeek1: XCTestCase {
     let sol3 = MaySolDay3()
     let sol4 = MaySolDay4()
     let sol5 = MaySolDay5()
+    let sol6 = MaySolDay6()
+    let sol7 = MaySolDay7()
     
     // MARK: - Day 1: First Bad Version
     func testFirstBadVersion1() {
@@ -84,6 +86,50 @@ class TestsMayWeek1: XCTestCase {
         let input = "loveleetcode"
         let expected = 2
         XCTAssertEqual(expected, sol5.firstUniqChar(input))
+    }
+    
+    // MARK: - Day 6: Majority Element
+    func testMajorityElement1() {
+        let input = [3, 2, 3]
+        let expected = 3
+        XCTAssertEqual(expected, sol6.majorityElement(input))
+    }
+    
+    func testMajorityElement2() {
+        let input = [2, 2, 1, 1, 1, 2, 2]
+        let expected = 2
+        XCTAssertEqual(expected, sol6.majorityElement(input))
+    }
+    
+    // MARK: - Day 7: Cousins in Binary Tree
+    func testCousinsInBinaryTree1() {
+        let tree = [
+            1,
+            2, 3,
+            4, nil, nil, nil
+        ].convertToBinaryTree()
+        let input = (x: 4, y: 3)
+        XCTAssertFalse(sol7.isCousins(tree, input.x, input.y))
+    }
+    
+    func testCousinsInBinaryTree2() {
+        let tree = [
+            1,
+            2, 3,
+            nil, 4, nil, 5
+        ].convertToBinaryTree()
+        let input = (x: 5, y: 4)
+        XCTAssertTrue(sol7.isCousins(tree, input.x, input.y))
+    }
+    
+    func testCousinsInBinaryTree3() {
+        let tree = [
+            1,
+            2, 3,
+            nil, 4, nil, nil
+        ].convertToBinaryTree()
+        let input = (x: 2, y: 3)
+        XCTAssertFalse(sol7.isCousins(tree, input.x, input.y))
     }
     
     func testPerformanceExample() throws {
