@@ -64,3 +64,5 @@
 | 3 |📗|[Ransom Note](https://leetcode.com/problems/ransom-note/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/MayWeek1/MaySolDay4.swift)|
 | 4 |📗|[Number Complement](https://leetcode.com/problems/number-complement/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/MayWeek1/MaySolDay4.swift)|
 | 5 |📗|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/MayWeek1/MaySolDay5.swift)|
+| 6 |📗|[Majority Element](https://leetcode.com/problems/majority-element/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/MayWeek1/MaySolDay6.swift)|
+| 7 |📗|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/MayWeek1/MaySolDay7.swift)|
