@@ -9,11 +9,11 @@
 - An  additional set of **30** code problems and solutions will be uploaded by the end of [May LeetCoding Challenge](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/).
 
 ## Articles for April Edition
-*Updates until Week 5 of April challenge.*
 - [iOS Interview Prep Guide: 30-Day Code Challenge in Swift — Week 1/5](https://medium.com/@twho/ios-interview-prep-guide-30-day-code-challenge-in-swift-week-1-5-7198c6a1477a)
 - [iOS Interview Prep Guide: 30-Day Code Challenge in Swift — Week 2/5](https://medium.com/@twho/ios-interview-prep-guide-30-day-code-challenge-in-swift-week-2-5-f8d14df99179)
 - [iOS Interview Prep Guide: 30-Day Code Challenge in Swift — Week 3/5](https://medium.com/@twho/ios-interview-prep-guide-30-day-code-challenge-in-swift-week-3-5-463f9bb8c4f5)
 - [iOS Interview Prep Guide: 30-Day Code Challenge in Swift — Week 4/5](https://medium.com/@twho/ios-interview-prep-guide-30-day-code-challenge-in-swift-week-4-5-647f6050e869)
+- [iOS Interview Prep Guide: 30-Day Code Challenge in Swift — Week 5/5](https://medium.com/swlh/ios-interview-prep-guide-30-day-code-challenge-in-swift-week-5-5-d093e2cd4217)
 
 ## Difficulty Legends
 | Difficulty | Easy | Medium | Hard |
