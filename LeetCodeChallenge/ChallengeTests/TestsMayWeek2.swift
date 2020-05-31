@@ -12,6 +12,9 @@ class TestsMayWeek2: XCTestCase {
     let sol8 = MaySolDay8()
     let sol9 = MaySolDay9()
     let sol10 = MaySolDay10()
+    let sol11 = MaySolDay11()
+    let sol12 = MaySolDay12()
+    let sol13 = MaySolDay13()
     
     // MARK: - Day 8: Check If It Is a Straight Line
     func testCheckStraightLine1() {
@@ -69,6 +72,51 @@ class TestsMayWeek2: XCTestCase {
     func testFindJudge5() {
         let input = (N: 4, trust: [[1, 3], [1, 4], [2, 3], [2, 4], [4, 3]])
         XCTAssertEqual(3, sol10.findJudge(input.N, input.trust))
+    }
+    
+    // MARK: - Day 11: Flood Fill
+    func testFloodFill1() {
+        let input = (image: [[1, 1, 1], [1, 1, 0], [1, 0, 1]], sr: 1, sc: 1, newColor: 2)
+        let expected = [[2, 2, 2], [2, 2, 0], [2, 0,1 ]]
+        XCTAssertEqual(expected, sol11.floodFill(input.image, input.sr, input.sc, input.newColor))
+    }
+    
+    func testFloodFill2() {
+        let input = (image: [[0,0,0],[0,0,0]], sr: 0, sc: 0, newColor: 2)
+        let expected = [[2, 2, 2], [2, 2, 2]]
+        XCTAssertEqual(expected, sol11.floodFill(input.image, input.sr, input.sc, input.newColor))
+    }
+    
+    // MARK: - Day 12: Single Element in a Sorted Array
+    func testSingleNonDuplicate1() {
+        let input = [1, 1, 2, 3, 3, 4, 4, 8, 8]
+        let expected = 2
+        XCTAssertEqual(expected, sol12.singleNonDuplicate(input))
+    }
+    
+    func testSingleNonDuplicate2() {
+        let input = [3, 3, 7, 7, 10, 11, 11]
+        let expected = 10
+        XCTAssertEqual(expected, sol12.singleNonDuplicate(input))
+    }
+    
+    // MARK: - Day 13: Remove K Digits
+    func testRemoveKDigits1() {
+        let input = (num: "1432219", k: 3)
+        let expected = "1219"
+        XCTAssertEqual(expected, sol13.removeKdigits(input.num, input.k))
+    }
+    
+    func testRemoveKDigits2() {
+        let input = (num: "10200", k: 1)
+        let expected = "200"
+        XCTAssertEqual(expected, sol13.removeKdigits(input.num, input.k))
+    }
+    
+    func testRemoveKDigits3() {
+        let input = (num: "10", k: 2)
+        let expected = "0"
+        XCTAssertEqual(expected, sol13.removeKdigits(input.num, input.k))
     }
     
     // MARK: - Day 14: Implement Trie (Prefix Tree)
