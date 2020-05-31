@@ -195,8 +195,6 @@ class TestsAprilWeek3: XCTestCase {
         XCTAssertTrue(output.isEqualToOtherTree(expected))
     }
     
-    
-    
     // MARK: - Day 21: Leftmost Column with at Least a One
     func testLeftmostColumnWithAtLeastOne1() {
         let input = [
