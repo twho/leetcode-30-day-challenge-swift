@@ -103,6 +103,14 @@ class TestsMayWeek1: XCTestCase {
     
     // MARK: - Day 7: Cousins in Binary Tree
     func testCousinsInBinaryTree1() {
+        /**
+        Tree structure
+            1
+           / \
+          2   3
+         /
+        4
+        */
         let tree = [
             1,
             2, 3,
@@ -113,6 +121,14 @@ class TestsMayWeek1: XCTestCase {
     }
     
     func testCousinsInBinaryTree2() {
+        /**
+        Tree structure
+            1
+           / \
+          2   3
+           \   \
+            4   5
+        */
         let tree = [
             1,
             2, 3,
@@ -123,6 +139,14 @@ class TestsMayWeek1: XCTestCase {
     }
     
     func testCousinsInBinaryTree3() {
+        /**
+        Tree structure
+            1
+           / \
+          2   3
+           \
+            4
+        */
         let tree = [
             1,
             2, 3,
