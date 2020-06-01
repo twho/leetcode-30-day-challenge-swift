@@ -10,21 +10,32 @@
 class MaySolDay13 {
     
     func removeKdigits(_ num: String, _ k: Int) -> String {
-        if k >= num.count || num.count < 1 { return "0" }
-        let chars = Array(num)
-        var stackChar = [chars[0]], l = k, i = 1
-        while i < chars.count {
-            if l > 0, let v = stackChar.last, v > chars[i] {
-                stackChar.popLast(); l -= 1
-            } else {
-                stackChar.append(chars[i]); i += 1
+        guard num.count > 0 && k < num.count else { return "0" }
+        
+        let arr = Array(num)
+        var stackChar = [Character]()
+        var count = k
+        var i = 0
+        while i < arr.count {
+            // Pop the elements if they are not in the increasing order
+            while count > 0, let last = stackChar.last, last > arr[i] {
+                stackChar.removeLast()
+                count -= 1
             }
+            stackChar.append(arr[i])
+            i += 1
         }
-        for _ in 0..<l { stackChar.popLast() }
-        while let c = stackChar.first, c == "0" {
+        
+        while count > 0 {
+            stackChar.removeLast()
+            count -= 1
+        }
+        
+        // Find leading 0s
+        while let first = stackChar.first, first == "0" {
             stackChar.removeFirst()
         }
-        if stackChar.isEmpty { stackChar.append("0") }
-        return String(stackChar)
+        
+        return stackChar.isEmpty ? "0" : String(stackChar)
     }
 }

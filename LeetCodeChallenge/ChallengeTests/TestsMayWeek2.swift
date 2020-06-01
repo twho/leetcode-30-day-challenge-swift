@@ -119,6 +119,12 @@ class TestsMayWeek2: XCTestCase {
         XCTAssertEqual(expected, sol13.removeKdigits(input.num, input.k))
     }
     
+    func testRemoveKDigits4() {
+        let input = (num: "1234567890", k: 9)
+        let expected = "0"
+        XCTAssertEqual(expected, sol13.removeKdigits(input.num, input.k))
+    }
+    
     // MARK: - Day 14: Implement Trie (Prefix Tree)
     func testTrie1() {
         let trie = MaySolDay14.Trie()
