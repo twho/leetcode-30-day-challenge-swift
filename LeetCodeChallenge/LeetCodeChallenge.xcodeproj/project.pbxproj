@@ -45,6 +45,8 @@
 		682ED1E224572D34004DF36D /* AprilSolDay24.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682ED1DF24572D2F004DF36D /* AprilSolDay24.swift */; };
 		682ED1E424572D3B004DF36D /* AprilSolDay25.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682ED1E324572D3B004DF36D /* AprilSolDay25.swift */; };
 		682ED1E524572D3D004DF36D /* AprilSolDay25.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682ED1E324572D3B004DF36D /* AprilSolDay25.swift */; };
+		6848DE6E248811BC00298499 /* MaySolDay29.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6848DE6D248811BC00298499 /* MaySolDay29.swift */; };
+		6848DE6F248811C200298499 /* MaySolDay29.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6848DE6D248811BC00298499 /* MaySolDay29.swift */; };
 		68624CEA244EAF7B0045B06C /* AprilSolDay15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68624CE9244EAF7B0045B06C /* AprilSolDay15.swift */; };
 		68624CEB244EAF9B0045B06C /* AprilSolDay15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68624CE9244EAF7B0045B06C /* AprilSolDay15.swift */; };
 		68624CED244EAFB50045B06C /* TestsAprilWeek3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68624CEC244EAFB50045B06C /* TestsAprilWeek3.swift */; };
@@ -66,6 +68,7 @@
 		6887B0A02477899700FA2F48 /* MaySolDay8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6887B09A2477897E00FA2F48 /* MaySolDay8.swift */; };
 		6887B0A1247789FF00FA2F48 /* MaySolDay10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6887B09E2477898F00FA2F48 /* MaySolDay10.swift */; };
 		6887B0A224778A0400FA2F48 /* MaySolDay9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6887B09C2477898700FA2F48 /* MaySolDay9.swift */; };
+		68B47E172488110A0074B0DA /* TestsMayWeek5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B47E162488110A0074B0DA /* TestsMayWeek5.swift */; };
 		68B95349248376250049F57A /* MaySolDay11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B95348248376250049F57A /* MaySolDay11.swift */; };
 		68B9534B2483762E0049F57A /* MaySolDay12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B9534A2483762E0049F57A /* MaySolDay12.swift */; };
 		68B9534D248376350049F57A /* MaySolDay13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B9534C248376350049F57A /* MaySolDay13.swift */; };
@@ -173,6 +176,7 @@
 		682ED1DD24572CE5004DF36D /* AprilSolDay23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprilSolDay23.swift; sourceTree = "<group>"; };
 		682ED1DF24572D2F004DF36D /* AprilSolDay24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprilSolDay24.swift; sourceTree = "<group>"; };
 		682ED1E324572D3B004DF36D /* AprilSolDay25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprilSolDay25.swift; sourceTree = "<group>"; };
+		6848DE6D248811BC00298499 /* MaySolDay29.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaySolDay29.swift; sourceTree = "<group>"; };
 		68624CE9244EAF7B0045B06C /* AprilSolDay15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprilSolDay15.swift; sourceTree = "<group>"; };
 		68624CEC244EAFB50045B06C /* TestsAprilWeek3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsAprilWeek3.swift; sourceTree = "<group>"; };
 		68624CEE244EB06A0045B06C /* AprilSolDay16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprilSolDay16.swift; sourceTree = "<group>"; };
@@ -184,6 +188,7 @@
 		6887B09A2477897E00FA2F48 /* MaySolDay8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaySolDay8.swift; sourceTree = "<group>"; };
 		6887B09C2477898700FA2F48 /* MaySolDay9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaySolDay9.swift; sourceTree = "<group>"; };
 		6887B09E2477898F00FA2F48 /* MaySolDay10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaySolDay10.swift; sourceTree = "<group>"; };
+		68B47E162488110A0074B0DA /* TestsMayWeek5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsMayWeek5.swift; sourceTree = "<group>"; };
 		68B95348248376250049F57A /* MaySolDay11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaySolDay11.swift; sourceTree = "<group>"; };
 		68B9534A2483762E0049F57A /* MaySolDay12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaySolDay12.swift; sourceTree = "<group>"; };
 		68B9534C248376350049F57A /* MaySolDay13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaySolDay13.swift; sourceTree = "<group>"; };
@@ -274,6 +279,14 @@
 			path = MayWeek2;
 			sourceTree = "<group>";
 		};
+		68B47E1124880F6C0074B0DA /* MayWeek5 */ = {
+			isa = PBXGroup;
+			children = (
+				6848DE6D248811BC00298499 /* MaySolDay29.swift */,
+			);
+			path = MayWeek5;
+			sourceTree = "<group>";
+		};
 		68B9534E2483763F0049F57A /* MayWeek3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -334,6 +347,7 @@
 				6811FD20246A6E2C005ED512 /* MayWeek2 */,
 				68B9534E2483763F0049F57A /* MayWeek3 */,
 				68B9536A248444270049F57A /* MayWeek4 */,
+				68B47E1124880F6C0074B0DA /* MayWeek5 */,
 			);
 			path = LeetCodeChallenge;
 			sourceTree = "<group>";
@@ -415,6 +429,7 @@
 				6811FD26246E0D7F005ED512 /* TestsMayWeek2.swift */,
 				68B9535824837E220049F57A /* TestsMayWeek3.swift */,
 				68B9536B2484444E0049F57A /* TestsMayWeek4.swift */,
+				68B47E162488110A0074B0DA /* TestsMayWeek5.swift */,
 				68D0432724469CCB0086E311 /* TestExtensions.swift */,
 				68D0430F2446832D0086E311 /* Info.plist */,
 			);
@@ -539,6 +554,7 @@
 				6811FD0D245F9441005ED512 /* MaySolDay1.swift in Sources */,
 				68B9536E248444740049F57A /* MaySolDay22.swift in Sources */,
 				68B95376248447ED0049F57A /* MaySolDay25.swift in Sources */,
+				6848DE6E248811BC00298499 /* MaySolDay29.swift in Sources */,
 				68D04317244684E50086E311 /* AprilSolDay2.swift in Sources */,
 				68624CFB24500B970045B06C /* AprilSolDay20.swift in Sources */,
 				68B9535524837DF80049F57A /* MaySolDay16.swift in Sources */,
@@ -632,8 +648,10 @@
 				68624CED244EAFB50045B06C /* TestsAprilWeek3.swift in Sources */,
 				6887B0A1247789FF00FA2F48 /* MaySolDay10.swift in Sources */,
 				682ED1DC245729F7004DF36D /* AprilSolDay22.swift in Sources */,
+				6848DE6F248811C200298499 /* MaySolDay29.swift in Sources */,
 				68D0432B244776C50086E311 /* TestsAprilWeek2.swift in Sources */,
 				68D043462447DBC60086E311 /* AprilSolDay13.swift in Sources */,
+				68B47E172488110A0074B0DA /* TestsMayWeek5.swift in Sources */,
 				68B95352248376580049F57A /* MaySolDay12.swift in Sources */,
 				68D0433424477A5C0086E311 /* DataModels.swift in Sources */,
 				6811FD21246A6E99005ED512 /* MaySolDay6.swift in Sources */,
