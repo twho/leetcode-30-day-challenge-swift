@@ -87,3 +87,4 @@
 | 26 |📙|[Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/MayWeek4/MaySolDay26.swift)|
 | 27 |📙|[Possible Bipartition](https://leetcode.com/problems/possible-bipartition/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/MayWeek4/MaySolDay27.swift)|
 | 28 |📙|[Counting Bits](https://leetcode.com/problems/counting-bits/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/MayWeek4/MaySolDay28.swift)|
+| 29 |📙|[Course Schedule](https://leetcode.com/problems/course-schedule/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/MayWeek5/MaySolDay29.swift)|
