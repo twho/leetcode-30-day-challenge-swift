@@ -88,3 +88,5 @@
 | 27 |📙|[Possible Bipartition](https://leetcode.com/problems/possible-bipartition/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/MayWeek4/MaySolDay27.swift)|
 | 28 |📙|[Counting Bits](https://leetcode.com/problems/counting-bits/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/MayWeek4/MaySolDay28.swift)|
 | 29 |📙|[Course Schedule](https://leetcode.com/problems/course-schedule/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/MayWeek5/MaySolDay29.swift)|
+| 30 |📙|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/MayWeek5/MaySolDay30.swift)|
+| 31 |📙|[Edit Distance](https://leetcode.com/problems/edit-distance/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/MayWeek5/MaySolDay31.swift)|
