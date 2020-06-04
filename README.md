@@ -15,6 +15,10 @@
 - [iOS Interview Prep Guide: 30-Day Code Challenge in Swift — Week 4/5](https://medium.com/@twho/ios-interview-prep-guide-30-day-code-challenge-in-swift-week-4-5-647f6050e869)
 - [iOS Interview Prep Guide: 30-Day Code Challenge in Swift — Week 5/5](https://medium.com/swlh/ios-interview-prep-guide-30-day-code-challenge-in-swift-week-5-5-d093e2cd4217)
 
+## Articles for May Edition
+*Updating in progress*
+- [Top 15 Swift Code Interview Questions from May Code Challenge — Part 1/3](https://medium.com/swlh/top-15-swift-code-interview-questions-from-may-code-challenge-part-1-3-65c3dc11851b)
+
 ## Difficulty Legends
 | Difficulty | Easy | Medium | Hard |
 |:--: | :--: | :--: |  :--: |
@@ -89,4 +93,4 @@
 | 28 |📙|[Counting Bits](https://leetcode.com/problems/counting-bits/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/MayWeek4/MaySolDay28.swift)|
 | 29 |📙|[Course Schedule](https://leetcode.com/problems/course-schedule/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/MayWeek5/MaySolDay29.swift)|
 | 30 |📙|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/MayWeek5/MaySolDay30.swift)|
-| 31 |📙|[Edit Distance](https://leetcode.com/problems/edit-distance/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/MayWeek5/MaySolDay31.swift)|
+| 31 |📕|[Edit Distance](https://leetcode.com/problems/edit-distance/) | [Solution](https://github.com/twho/leetcode-30-day-challenge-swift/blob/master/LeetCodeChallenge/LeetCodeChallenge/MayWeek5/MaySolDay31.swift)|
