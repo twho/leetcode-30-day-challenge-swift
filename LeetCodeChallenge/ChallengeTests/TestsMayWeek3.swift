@@ -9,12 +9,42 @@
 import XCTest
 
 class TestsMayWeek3: XCTestCase {
+    let sol15 = MaySolDay15()
     let sol16 = MaySolDay16()
     let sol17 = MaySolDay17()
     let sol20 = MaySolDay20()
     let sol21 = MaySolDay21()
     
     // MARK: - Day 15: Maximum Sum Circular Subarray
+    func testMaxSubarraySumCircular1() {
+        let input = [1,-2,3,-2]
+        let expected = 3
+        XCTAssertEqual(expected, sol15.maxSubarraySumCircular(input))
+    }
+    
+    func testMaxSubarraySumCircular2() {
+        let input = [5, -3, 5]
+        let expected = 10
+        XCTAssertEqual(expected, sol15.maxSubarraySumCircular(input))
+    }
+    
+    func testMaxSubarraySumCircular3() {
+        let input = [3, -1, 2, -1]
+        let expected = 4
+        XCTAssertEqual(expected, sol15.maxSubarraySumCircular(input))
+    }
+    
+    func testMaxSubarraySumCircular4() {
+        let input = [9, -4, -7, 9]
+        let expected = 18
+        XCTAssertEqual(expected, sol15.maxSubarraySumCircular(input))
+    }
+    
+    func testMaxSubarraySumCircular5() {
+        let input = [2, -2, 2, 7, 8, 0]
+        let expected = 19
+        XCTAssertEqual(expected, sol15.maxSubarraySumCircular(input))
+    }
     
     // MARK: - Day 16: Odd Even Linked List
     func testOddEvenLinkedList1() {
