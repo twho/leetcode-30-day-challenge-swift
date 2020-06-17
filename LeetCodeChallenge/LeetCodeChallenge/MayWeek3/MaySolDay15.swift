@@ -13,14 +13,15 @@ class MaySolDay15 {
         if A.count == 1 {
             return A[0]
         }
-        
+
         var output = Int.min
         var current = A[0]
+        // Single interval
         for i in 1..<A.count {
             current = max(A[i] + current, A[i])
             output = max(output, current)
         }
-        
+
         var right = A
         for i in 1..<A.count {
             let rightIdx = A.count - 1 - i
@@ -32,13 +33,16 @@ class MaySolDay15 {
             let rightIdx = A.count - 1 - i
             maxRight[rightIdx] = max(maxRight[rightIdx + 1], right[rightIdx])
         }
-        
+
         var leftSum = 0
+        // Double interval
         for i in 0..<A.count - 2 {
             leftSum += A[i]
+            // Note that we don't need to examine i + 1 since it is cosecurive
+            // that was covered in single interval
             output = max(output, leftSum + maxRight[i + 2])
         }
-        
+
         return output
     }
 }
